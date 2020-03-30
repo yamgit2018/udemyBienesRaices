@@ -206,6 +206,26 @@ h4
     font-weight: 700;
 }
 
+.iconos-caracteristicas
+{
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    
+}
+
+ .iconos-caracteristicas il
+{
+    display: flex;
+    
+    
+}
+
+.iconos-caracteristicas il img
+{
+    margin-right: 2rem;
+} 
+
 .ver-todas
 {
     display: flex;
