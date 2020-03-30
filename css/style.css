@@ -104,7 +104,8 @@ h4
 .header-inicio
 {
     background-image: url(../img/header.jpg);
-    background-size: cover;background-position: center center;
+    background-size: cover;
+    background-position: center center;
     height: 100vh;
     min-height: 80rem;
 }
@@ -209,4 +210,27 @@ h4
 {
     display: flex;
     justify-content: flex-end;
+}
+
+/* Contactanos */
+.contacto
+{
+    background-image: url(../img/encuentra.jpg);
+    height: 40rem;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto
+{
+    flex: 1;
+    color: white;
+
+}
+
+.contenido-contacto p
+{
+    font-size: 1.8rem;
 }
