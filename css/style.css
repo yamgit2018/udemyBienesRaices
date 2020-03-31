@@ -254,3 +254,56 @@ h4
 {
     font-size: 1.8rem;
 }
+
+/*Blog - Testimonales*/
+.seccion-inferior
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-inferior .blog
+{
+    flex-basis: 60%;
+}
+
+.seccion-inferior .testimoniales
+{
+    flex-basis: calc(40% - 2rem);
+} 
+
+/* Blog */
+
+.entrada-blog
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrada-blog .imagen
+{
+    flex-basis: 40%;
+}
+
+.entrada-blog .texto-entrada
+{
+   flex-basis: calc(60% - 2rem);
+}
+
+.entrada-blog
+{
+    /* line-height: 1.8; */
+    margin-bottom: 4rem;
+}
+
+.entrada-blog:last-of-type
+{
+    margin-bottom: 0;
+}
+
+
+.texto-entrada h4
+{
+    margin: 0;
+    line-height: 2.5;
+}
