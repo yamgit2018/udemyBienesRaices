@@ -305,5 +305,63 @@ h4
 .texto-entrada h4
 {
     margin: 0;
-    line-height: 2.5;
+    /* line-height: 2.5; */
+}
+
+.texto-entrada a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.texto-entrada h4::after
+{
+    content: ' ';
+    display: block;
+    width: 20rem;
+    height: 0.5rem;
+    background-color: green;
+}
+
+.texto-entrada span
+{
+    color: orange;
+    font-weight: 900;
+    
+}
+
+/* Testimoniales */
+
+.contenido-testimonial
+{
+    background-color: green;
+    padding: 2rem;
+    color: white;
+    border-radius: 2rem;
+    font-size: 2.2rem;
+
+}
+
+.contenido-testimonial blockquote::before
+{
+    content: ' ';
+    background-image: url(../img/comilla.svg);
+    /* display: block; */
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left: -2rem;
+    
+}
+
+.contenido-testimonial blockquote
+{
+    position: relative;
+    padding-left: 5rem;
+}
+
+.contenido-testimonial p
+{
+    text-align: right;
 }
