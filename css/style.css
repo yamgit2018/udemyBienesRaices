@@ -71,6 +71,13 @@ h4
     display: block!important;
 }
 
+.site-header
+{
+        background-color: #333333;
+        padding: 1rem 0 3rem 0;
+        
+}
+
 /* Botones */
 .boton
 {
@@ -101,7 +108,7 @@ h4
 
 
 /*Encabezado Index*/
-.header-inicio
+.site-header.inicio
 {
     background-image: url(../img/header.jpg);
     background-size: cover;
@@ -118,6 +125,7 @@ h4
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .contenido-header h1
@@ -364,4 +372,56 @@ h4
 .contenido-testimonial p
 {
     text-align: right;
+}
+
+/* Footer */
+.site-footer
+{
+    background-color: #333333;
+
+}
+
+.contenido-footer
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    align-items: center;
+}
+
+.copyright
+{
+    margin: 0;
+    color: white;
+}
+
+/*  Nosotros */
+
+/* .contenido-nosotros
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen-nosotros
+{
+    flex-basis: 50%;
+}
+
+.texto-nosotros
+{
+    flex-basis: calc(50% - 3rem);
+} */
+
+.contenido-nosotros
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+}
+
+.texto-nosotros h2
+{
+    font-size: 2rem;
+    font-weight: 900;
 }
