@@ -79,6 +79,11 @@ h4
         
 }
 
+.imagen-ampliado
+{
+    width: 230rem;
+}
+
 .contenido-centrado
 {
     max-width: 80rem;
@@ -413,10 +418,6 @@ h4
 /* Paginas Internas */
 
 /* Anuncio */
-.imagen-anuncio
-{
-    width: 230rem;
-}
 
 .resumen-propiedad
 {
