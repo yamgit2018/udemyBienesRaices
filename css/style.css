@@ -81,7 +81,7 @@ h4
 
 .imagen-ampliado
 {
-    width: 230rem;
+    width: 300rem;
 }
 
 .contenido-centrado
@@ -457,4 +457,10 @@ h4
 {
     font-size: 2rem;
     font-weight: 900;
+}
+
+/* Contacto */
+label
+{
+    display: block;
 }
