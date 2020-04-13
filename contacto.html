@@ -35,13 +35,13 @@
 
                     <legend>Información Personal</legend>
                     <label for="name">Nombre:</label>
-                    <input type="text" id="name" placeholder="Your Name">
+                    <input class="texto" type="text" id="name" placeholder="Tu Nombre">
 
                     <label for="email">E-mail:</label>
-                    <input type="email" id="email" placeholder="Your Email">
+                    <input type="email" id="email" placeholder="Tu Email">
 
                     <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" placeholder="Tu teléfono">
+                    <input type="tel" id="telefono" placeholder="Tu Teléfono">
 
                     <label for="mensaje">Mensaje:</label>
                     <textarea  id="mensaje"></textarea>
@@ -70,9 +70,18 @@
                     <label for="correo">E-mail</label>
                     <input type="radio" name="contacto" id="correo">
 
-                    <input type="submit" value="Enviar">
-                </fieldset>
+                    <p>Si Eligio Telefono, eliga Fecha y Hora</p>
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="" id="fecha">
 
+                    <label for="hora">Hora</label>
+                    <input type="time" name="" id="hora" min="9:00" max="18:00">
+
+                    <input type="submit" value="Enviar" class="boton boton-verde">
+
+                    
+                </fieldset>
+                
                 
             </form>
 

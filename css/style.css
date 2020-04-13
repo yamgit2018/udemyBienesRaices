@@ -464,3 +464,25 @@ label
 {
     display: block;
 }
+
+input:not([type="submit"]), textarea, select
+{
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+textarea
+{
+    height: 20rem;
+}
+
+select
+{
+    appearance: none;
+    -webkit-appearance: none;
+}
