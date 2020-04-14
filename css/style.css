@@ -81,7 +81,7 @@ h4
 
 .imagen-ampliado
 {
-    width: 230rem;
+    width: 300rem;
 }
 
 .contenido-centrado
@@ -100,8 +100,12 @@ h4
     padding: 1rem 3rem;
     display: inline-block;
     text-align: center;
-    
+    border: none;
+}
 
+.boton:hover
+{
+    cursor: pointer;
 }
 
 .boton-naranja
@@ -458,3 +462,64 @@ h4
     font-size: 2rem;
     font-weight: 900;
 }
+
+/* Contacto */
+legend
+{
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+label
+{
+    display: block;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+input:not([type="submit"]), textarea, select
+{
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+input[type="radio"]
+{
+    margin: 0;
+    width: auto;
+}
+
+textarea
+{
+    height: 20rem;
+}
+
+select
+{
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.parrafo p
+{
+    font-size: 1.8rem;
+    margin: 1rem 0 0 0;
+}
+
+
+
+/* .forma-contacto
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 50rem;
+    align-items: center;
+    
+} */
