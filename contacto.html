@@ -30,7 +30,7 @@
       <img class="imagen-ampliado" src="img/destacada3.jpg" alt="Contacto">
         <main class="contenedor seccion contenido-centrado">
             <h2 class="fw-300 centrar-texto"> Llena el Formulario de Contacto</h2>
-            <form action="">
+            <form class="parrafo" action="">
                 <fieldset>
 
                     <legend>Información Personal</legend>
@@ -57,19 +57,20 @@
                        <option value="">Vender</option>
                    </select>
 
-                   <label for="presupuesto">Presupuesto:</label>
+                   <label for="presupuesto">Presupuesto (Soles):</label>
                    <input type="number" id="presupuesto" min="0">
                </fieldset>
 
                 <fieldset>
                     <legend>Contacto</legend>
                     <p>Como desea ser Contactado:</p>
-                    <label for="tel">Telefono</label>
-                    <input type="radio" name="contacto" id="tel">
+                    <div class="forma-contacto">
+                        <label for="tel">Telefono</label>
+                        <input type="radio" name="contacto" id="tel">
 
-                    <label for="correo">E-mail</label>
-                    <input type="radio" name="contacto" id="correo">
-
+                        <label for="correo">E-mail</label>
+                        <input type="radio" name="contacto" id="correo">
+                    </div>        
                     <p>Si Eligio Telefono, eliga Fecha y Hora</p>
                     <label for="fecha">Fecha</label>
                     <input type="date" name="" id="fecha">
