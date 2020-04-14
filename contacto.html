@@ -26,7 +26,67 @@
             </div>     
         </header>     
         
-      <main></main>
+      <h1 class="centrar-texto fw-300">Contacto</h1>
+      <img class="imagen-ampliado" src="img/destacada3.jpg" alt="Contacto">
+        <main class="contenedor seccion contenido-centrado">
+            <h2 class="fw-300 centrar-texto"> Llena el Formulario de Contacto</h2>
+            <form class="parrafo" action="">
+                <fieldset>
+
+                    <legend>Información Personal</legend>
+                    <label for="name">Nombre:</label>
+                    <input class="texto" type="text" id="name" placeholder="Tu Nombre">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Tu Email">
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" placeholder="Tu Teléfono">
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea  id="mensaje"></textarea>
+               </fieldset>
+
+               <fieldset>
+                   <legend>Información sobre Propiedad</legend>
+                   
+                   <label for="opciones">Vende o Compra</label>
+                   <select id="opciones">
+                       <option value="" disabled selected>-- Seleccionar --</option>
+                       <option value="">Comprar</option>
+                       <option value="">Vender</option>
+                   </select>
+
+                   <label for="presupuesto">Presupuesto (S  oles):</label>
+                   <input type="number" id="presupuesto" min="0">
+               </fieldset>
+
+                <fieldset>
+                    <legend>Contacto</legend>
+                    <p>Como desea ser Contactado:</p>
+                    <div class="forma-contacto">
+                        <label for="tel">Telefono</label>
+                        <input type="radio" name="contacto" id="tel">
+
+                        <label for="correo">E-mail</label>
+                        <input type="radio" name="contacto" id="correo">
+                    </div>        
+                    <p>Si Eligio Telefono, eliga Fecha y Hora</p>
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="" id="fecha">
+
+                    <label for="hora">Hora</label>
+                    <input type="time" name="" id="hora" min="9:00" max="18:00">
+
+                    <input type="submit" value="Enviar" class="boton boton-verde">
+
+                    
+                </fieldset>
+                
+                
+            </form>
+
+        </main>
     
 
         <!--Footer-->
