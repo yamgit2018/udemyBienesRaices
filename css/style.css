@@ -457,7 +457,7 @@ h4
     padding: 2rem;
     color: white;
     border-radius: 2rem;
-    font-size: 2.2rem;
+    font-size: 2rem;
 
 }
 
@@ -488,15 +488,35 @@ h4
 .site-footer
 {
     background-color: #333333;
+    
 
 }
 
 .contenido-footer
 {
-    display: flex;
-    justify-content: space-between;
+    margin-top: 3rem;
     padding: 3rem 0;
-    align-items: center;
+    text-align: center;
+}
+
+.contenido-footer .navegacion a
+{
+    display: none;
+}
+
+@media (min-width:768px) 
+{
+    .contenido-footer
+    {
+        display: flex;
+        justify-content: space-between;    
+        align-items: center;
+    }
+
+    .contenido-footer .navegacion a
+    {
+        display: inline-block;
+    }
 }
 
 .copyright
