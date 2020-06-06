@@ -27,7 +27,7 @@ img
 {
     max-width: 120rem;
     margin: 0 auto;
-    width: 85%;
+    width: 95%;
 }
 
 h1
@@ -320,7 +320,7 @@ h4
 
 .iconos-caracteristicas il img
 {
-    margin-right: 2rem;
+    margin-right: 0.8rem;
 } 
 
 .ver-todas
