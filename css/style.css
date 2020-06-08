@@ -556,12 +556,18 @@ h4
     flex-basis: calc(50% - 3rem);
 } */
 
-.contenido-nosotros
+@media (min-width:768px) 
 {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    column-gap: 2rem;
+    .contenido-nosotros
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2rem;
+    }
+
 }
+
+
 
 .texto-nosotros h2
 {
